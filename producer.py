@@ -37,16 +37,19 @@ class Producer(Thread):
         self.products = products
         self.marketplace = marketplace
         self.republish_wait_time = republish_wait_time
-        self.producer_id = marketplace.register_producer()
 
     def run(self):
+        producer_id = self.marketplace.register_producer()
         while True:
             # parcurg lista de products si incerc sa fac publish la fiecare produs
             for product in self.products:
                 for _ in range(product[1]):
                     # adaug doar tipul produsului in lista
-                    ret = self.marketplace.publish(self.producer_id, product[0])
-                    # daca coada producatorului e plina, astept
+                    ret = self.marketplace.publish(producer_id, product[0])
+                    # Daca s-a reusit sa fie pus in marketplace
+                    if ret:
+                        sleep(product[2])
+                    # Daca coada producatorului e plina, astept
                     while not ret:
                         sleep(self.republish_wait_time)
-                        ret = self.marketplace.publish(self.producer_id, product[0])
+                        ret = self.marketplace.publish(producer_id, product[0])

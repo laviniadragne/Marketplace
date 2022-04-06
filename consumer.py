@@ -6,7 +6,7 @@ Assignment 1
 March 2021
 """
 import threading
-from threading import Thread, Lock
+from threading import Thread
 from time import sleep
 
 
@@ -38,7 +38,6 @@ class Consumer(Thread):
         self.marketplace = marketplace
         self.retry_wait_time = retry_wait_time
         self.kwargs = kwargs
-        self.lock = Lock()
 
     def run(self):
         for cart in self.carts:

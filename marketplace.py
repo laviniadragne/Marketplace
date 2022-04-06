@@ -6,6 +6,46 @@ Assignment 1
 March 2021
 """
 from threading import BoundedSemaphore
+import unittest
+
+from producer import Producer
+from product import Tea, Coffee
+
+
+class TestMarketplace(unittest.TestCase):
+    def setUp(self):
+        self.marketplace = Marketplace(15)
+        self.producers = []
+        self.consumers = []
+        self.initialize_producers()
+
+    def initialize_producers(self):
+        products = [(Tea(name='Linden', price=9, type='Herbal'), 2, 0.18),
+                    (Coffee(name='Indonezia', price=1, acidity='5.05', roast_level='MEDIUM'), 1, 0.23)]
+        republish_wait_time = 0.15
+        kwargs = {'name': 'prod1', 'daemon': True}
+        self.producers.append(Producer(products, self.marketplace, republish_wait_time, **kwargs))
+
+    def test_register_producer(self):
+        i = 0
+        while i < len(self.producers):
+            self.assertTrue(self.producers[i].marketplace.register_producer() == i)
+            i += 1
+
+    def test_publish(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_new_cart(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_add_to_cart(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_remove_from_cart(self):
+        self.assertEqual('foo'.upper(), 'FOO')
+
+    def test_place_order(self):
+        self.assertEqual('foo'.upper(), 'FOO')
 
 
 class Marketplace:
