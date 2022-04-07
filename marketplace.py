@@ -5,6 +5,9 @@ Computer Systems Architecture Course
 Assignment 1
 March 2021
 """
+import logging
+import time
+from logging.handlers import RotatingFileHandler
 from threading import BoundedSemaphore
 import unittest
 
@@ -18,6 +21,7 @@ class TestMarketplace(unittest.TestCase):
     Class that represents the TestMarketplace.
     Used to test the behavior of the Marketplace class.
     """
+
     def setUp(self):
         self.marketplace = Marketplace(15)
         self.producers = []
@@ -148,7 +152,7 @@ class TestMarketplace(unittest.TestCase):
                     if product["type"] == "add":
                         # Toti consumatorii ar trebui sa poata obtine produsele
                         self.assertEqual(self.marketplace.add_to_cart(cart_id,
-                                        product["product"]), True)
+                                                                      product["product"]), True)
 
             # Outputul pe care ar trebui sa-l am
             dict_prod = {0: [(Tea(name='Linden', price=9, type='Herbal'), False),
@@ -214,6 +218,14 @@ class Marketplace:
         :type queue_size_per_producer: Int
         :param queue_size_per_producer: the maximum size of a queue associated with each producer
         """
+
+        logging.basicConfig(
+            handlers=[RotatingFileHandler('marketplace.log', maxBytes=100000, backupCount=10)],
+            level=logging.INFO,
+            format="[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s",
+            datefmt='%Y-%m-%dT%H:%M:%S')
+        logging.Formatter.converter = time.gmtime
+
         self.queue_size_per_producer = queue_size_per_producer
         # (key, value) = (id_producer, [product, availability)])
         self.dict_prod = {}
@@ -233,6 +245,7 @@ class Marketplace:
         """
         self.register_lock.acquire()
         self.id_prod += 1
+        logging.info("id_producer: %d", self.id_prod)
         self.register_lock.release()
         return self.id_prod
 
@@ -248,6 +261,9 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again.
         """
+        logging.info("producer_id: %d", producer_id)
+        logging.info("product: %s", product)
+
         # Verific daca producatorul are produse in coada
         products_list = self.dict_prod.get(producer_id)
 
@@ -271,8 +287,10 @@ class Marketplace:
             self.distribution_products[product].append(producer_id)
         # Trebuie sa astepte, nu poate produce
         else:
+            logging.info("return value: False")
             return False
 
+        logging.info("return value: True")
         return True
 
     def new_cart(self):
@@ -283,6 +301,7 @@ class Marketplace:
         """
         self.cart_lock.acquire()
         self.id_cart += 1
+        logging.info("id_cart: %d", self.id_cart)
         self.cart_lock.release()
         return self.id_cart
 
@@ -298,6 +317,9 @@ class Marketplace:
 
         :returns True or False. If the caller receives False, it should wait and then try again
         """
+        logging.info("cart_id: %d", cart_id)
+        logging.info("product: %s", product)
+
         # Verific daca exista cosul, altfel il adaug in lista de cosuri
         products = self.carts.get(cart_id)
         if products is None:
@@ -324,7 +346,9 @@ class Marketplace:
                             self.dict_prod[producer][i] = (prod, False)
                             # Adaug in cos produsul si producatorul de la care l-a luat
                             self.carts[cart_id].append((product, producer))
+                            logging.info("return value: True")
                             return True
+        logging.info("return value: False")
         return False
 
     def remove_from_cart(self, cart_id, product):
@@ -337,6 +361,8 @@ class Marketplace:
         :type product: Product
         :param product: the product to remove from cart
         """
+        logging.info("cart_id: %d", cart_id)
+        logging.info("product: %s", product)
 
         # Caut produsul in cos
         source_producer = -1
@@ -369,6 +395,8 @@ class Marketplace:
         :type cart_id: Int
         :param cart_id: id cart
         """
+        logging.info("cart_id: %d", cart_id)
+
         # Parcurg toate produsele din cos
         for (product, producer) in self.carts[cart_id]:
             # Parcurg toate produsele de la acel producator, pentru a-l gasi
@@ -382,4 +410,5 @@ class Marketplace:
                         self.distribution_products[product].remove(producer)
                         break
 
+        logging.info("return value: %s", self.carts[cart_id])
         return self.carts[cart_id]

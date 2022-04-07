@@ -1,0 +1,160 @@
+Nume: Dragne Lavinia-Stefana
+Grupa: 334 CA
+
+				       ARHITECTURA SISTEMELOR DE CALCUL
+				            Tema #1 - Marketplace
+
+
+	Continutul proiectului este urmatorul:
+	
+	- directorul tema cu: marketplace.py, producer.py, consumer.py, product.py
+	
+	- directorul .git
+
+	- acest fisier README.
+
+	* Organizare
+
+        * Producer
+        - Se obtine un id unic de la marketplace si intr-o bucla while True
+        se parcurge lista de produse, incercandu-se sa se faca publish la
+        toate, pe rand. Daca operatia de publish esueaza se asteapta
+        republish_wait_time si se incearca din nou.
+        - Produsele de publicat sunt retinute intr-o lista.
+        - Am folosit "daemon thread-uri" pentru producatori, pentru ca 
+        programul sa se termine, atunci cand au mai ramas doar thread-urile
+        daemon in executie. Adica, programul se va termina, cand vor termina
+        consumatorii.
+
+
+        * Consumer
+        - Se stocheaza intr-o lista toate cosurile de cumparaturi si se
+        parcurge.
+        - Pentru fiecare cos, obtin un id unic, parcurg lista de produse din
+        cos si in functie de tipul de operatie: add sau remove apelez functiile
+        add_to_cart, respectiv remove_from_cart din marketplace.
+        - Plasez comanda, obtinand o lista de produse, pe care, daca nu e vida,
+        o printez. Lista poate fi vida, deoarece cosul poate fi gol, la final.
+        - Printarea obiectelor cumparate se face protejata de un 
+        BoundedSemaphore initializat cu 1, care functioneaza asemanator
+        unui mutex.
+
+
+        * Marketplace
+
+        * Structurile principale de date folosite
+        in Marketplace:
+
+        - dict_prod: un dictionar cu key id-ul producatorului
+                    si value o lista de perechi de forma
+                    (produs, disponibilitate pentru cumparatori)
+
+        - distribution_products: un dictionar cu key-ul produsul
+                                si value id-ul producatorului pentru
+                                acel produs
+
+        - carts: dictionar pentru cosurile de cumparaturi cu
+                key id-ul cosului si value o lista de perechi de
+                forma (produs, id producator)
+
+        - Pentru a genera id-urile producatorilor si cosurilor de cumparaturi
+        am folosit 2 variabile, initializate cu -1. De fiecare data cand se
+        doreste un id nou, variabilele sunt incrementate cu 1. Incrementarea
+        se face protejata de un BoundedSemaphore.
+
+        - Pentru ca un producator sa publice un produs, se verifica mai intai
+        daca producatorul are o coada de produse asociate, in dictionarul
+        dict_prod si in caz, contrar i se aloca una goala. Se verifica daca
+        lungimea cozii este mai mica decat limita de produse pe care o poate
+        produce si in caz contrar se returneaza False, pentru ca producatorul
+        nu poate publica si trebuie sa astepte.
+
+        - Daca se poate produce, se adauga produsul in coada producatorului si
+        disponibilitatea True catre consumatori. Se adauga ca si producator
+        pentru acel produs in distribution_products.
+
+        - Pentru a se adauga un obiect in cos, se verifica daca cosul exista
+        in dictionarul carts, in caz contrar se adauga. Se verifica daca
+        produsul dorit exista in stoc, folosind dictionarul distribution_
+        products. In caz afirmativ se cauta produsul la primul distribuitor
+        ce il produce, se face indisponibil pentru ceilalti cumparatori,
+        marcandu-se campul availability din dictionarul dict_prod cu False.
+        Se adauga in cos produsul si producatorul de la care a fost luat,
+        pentru ca in caz de returnare sa ii fie pus inapoi in coada tot
+        acestuia.
+
+        - Pentru a se elimina un produs, acesta este cautat in cos si i se
+        actualizeaza starea de valabilitatea pentru ceilalti cumparatori,
+        ca fiind True, in coada de produse a producatorului respectiv.
+        Este de asemenea eliminat din dictionarul carts, avand grija
+        sa elimin si producatorul asociat.
+
+        - Pentru a plasa o comanda se parcuge cosul de cumparaturi si
+        pentru fiecare produs acesta este sters, in cazul in care campul
+        de availability este False, din coada asociata producatorului.
+        Se sterge, de asemenea, si producatorul din dictionarul de produse.
+        Se returneaza lista de produse asociata cosului de cumparaturi dorit.
+
+
+    * Unitteste
+        - Testele au urmarit inputul de la test01.in.
+        - Metodele initialize_consumers() si initialize_producers() creaza 2
+        liste cu 1 consumator, respectiv 1 producator si sunt apelate de
+        majoritatea testelor, pentru initializarea spatiului de lucru
+        pentru testare.
+        - Metodele producers_action() si consumers_action() simuleaza
+        actionea unui producator (apelare succesiva de publish),
+        respectiv adaugarea sau stergerea din cos a produselor, pentru
+        un consumator.
+        - Testele urmaresc aceeasi logica: initializare consumatori/
+        producatori, executarea actiunilor asociate de publish/ add /
+        remove cart, compararea valorii de return obtinute cu cea 
+        dorita, compararea structurilor de date folosite in functiile
+        testate cu output-urile de referinta.
+
+
+    * Logging
+    - Am folosit mesaje de nivel info(), pentru a afisa toate intrarile
+    si iesirile din metodele clasei Marketplace.
+    - Pentru a limita fisierul de log am folosit RotatingFileHandler.
+    - Pentru a seta gmtime si nu localtime am folosit time.gmtime.
+
+
+    * Implementare
+    - A fost implementata intreaga functionalitate.
+    - Am ales sa folosesc BoundedSemaphore initializat cu 1 pentru
+    sincronizare deoarece acesta ofera un nivel in plus de securitate la
+    greselile umane, generand o eroare in cazul in care se face un apel de
+    release(), care incearca sa mareasca contorul interior peste dimensiunea
+    sa maxima.
+    - Nu am avut nevoie de alte variabile de sincronizare, in afara de cele
+    mentionate deja, deoarece am folosit operatii pe structuri de date precum:
+    dictionare si liste, operatii care in Python sunt atomice (append, remove).
+
+    * Git
+    - https://github.com/laviniadragne/Marketplace
+
+	* Resurse utilizate:
+    1. https://ocw.cs.pub.ro/courses/asc/laboratoare/01
+	2. https://ocw.cs.pub.ro/courses/asc/laboratoare/02
+    3. https://ocw.cs.pub.ro/courses/asc/laboratoare/03
+    4. https://stackoverflow.com/questions/323972/is-there-any-way-to-kill-a-thread
+    5. https://web.archive.org/web/20201108091210/http://effbot.org/pyfaq/what-kinds-of-global-value-mutation-are-thread-safe.htm
+    6. https://stackoverflow.com/questions/40088496/how-to-use-pythons-rotatingfilehandler
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                         
