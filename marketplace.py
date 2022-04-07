@@ -8,44 +8,197 @@ March 2021
 from threading import BoundedSemaphore
 import unittest
 
-from producer import Producer
-from product import Tea, Coffee
+from tema.consumer import Consumer
+from tema.producer import Producer
+from tema.product import Tea, Coffee
 
 
 class TestMarketplace(unittest.TestCase):
+    """
+    Class that represents the TestMarketplace.
+    Used to test the behavior of the Marketplace class.
+    """
     def setUp(self):
         self.marketplace = Marketplace(15)
         self.producers = []
         self.consumers = []
         self.initialize_producers()
+        self.initialize_consumers()
 
     def initialize_producers(self):
+        """
+        Creates a list of producers with 1 producer and 3 products
+        """
+
         products = [(Tea(name='Linden', price=9, type='Herbal'), 2, 0.18),
-                    (Coffee(name='Indonezia', price=1, acidity='5.05', roast_level='MEDIUM'), 1, 0.23)]
+                    (Coffee(name='Indonezia', price=1, acidity='5.05', roast_level='MEDIUM'),
+                     1, 0.23)]
         republish_wait_time = 0.15
         kwargs = {'name': 'prod1', 'daemon': True}
-        self.producers.append(Producer(products, self.marketplace, republish_wait_time, **kwargs))
+        self.producers.append(Producer(products, self.marketplace,
+                                       republish_wait_time, **kwargs))
+
+    def initialize_consumers(self):
+        """
+        Creates a list of consumers with 1 consumer, 1 cart and 3 operations to be performed
+        """
+
+        carts = [[{'type': 'add', 'product': Tea(name='Linden', price=9, type='Herbal'),
+                   'quantity': 1},
+                  {'type': 'add', 'product': Coffee(name='Indonezia', price=1, acidity='5.05',
+                                                    roast_level='MEDIUM'), 'quantity': 1},
+                  {'type': 'remove', 'product': Coffee(name='Indonezia', price=1, acidity='5.05',
+                                                       roast_level='MEDIUM'), 'quantity': 1}]]
+        retry_wait_time = 0.31
+        kwargs = {'name': 'cons1'}
+        self.consumers.append(Consumer(carts, self.marketplace, retry_wait_time, **kwargs))
+
+    def producers_action(self):
+        """
+        Iterate through the list of products and try to publish them
+        """
+        # adauga producatorii produse
+        ret = True
+        producer_id = self.marketplace.register_producer()
+        # parcurg lista de products si incerc sa fac publish la fiecare produs
+        for product in self.producers[0].products:
+            for _ in range(product[1]):
+                # coada are dimensiune destul de mare
+                ret = self.marketplace.publish(producer_id, product[0])
+                if not ret:
+                    return ret
+        return ret
+
+    def consumers_action(self):
+        """
+        Iterate through the list of carts and try to add or remove
+        products from marketplace
+        """
+
+        # Fac add si remove la produse
+        for cart in self.consumers[0].carts:
+            cart_id = self.marketplace.new_cart()
+
+            for product in cart:
+                for _ in range(product["quantity"]):
+                    if product["type"] == "add":
+                        # Toti consumatorii ar trebui sa poata obtine produsele
+                        self.marketplace.add_to_cart(cart_id, product["product"])
+                    elif product["type"] == "remove":
+                        self.marketplace.remove_from_cart(cart_id, product["product"])
 
     def test_register_producer(self):
+        """
+        Test the assign of an id for a producer
+        """
         i = 0
-        while i < len(self.producers):
-            self.assertTrue(self.producers[i].marketplace.register_producer() == i)
-            i += 1
+        self.assertTrue(self.producers[i].marketplace.register_producer() == i)
 
     def test_publish(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        """
+        Verify the return value and the resulted dictionaries from publish function
+        """
+
+        # Verific publish cu o coada de 15 produse, 1 producator si
+        # 3 produse de adaugat
+        ret = self.producers_action()
+        # Verific daca produsele au fost adaugate
+        self.assertTrue(ret, True)
+        dict_prod = {0: [(Tea(name='Linden', price=9, type='Herbal'), True),
+                         (Tea(name='Linden', price=9, type='Herbal'), True),
+                         (Coffee(name='Indonezia', price=1, acidity='5.05',
+                                 roast_level='MEDIUM'), True)]}
+        distribution_products = {Tea(name='Linden', price=9, type='Herbal'): [0, 0],
+                                 Coffee(name='Indonezia', price=1, acidity='5.05',
+                                        roast_level='MEDIUM'): [0]}
+        # Verific valorile din dictionarele create
+        self.assertEqual(self.marketplace.distribution_products, distribution_products)
+        self.assertEqual(self.marketplace.dict_prod, dict_prod)
+
+        # Alt caz: verific cu o limitare de 2 produse in coada
+        self.marketplace = Marketplace(2)
+        ret = self.producers_action()
+        # Ar trebui sa nu pot publica 3 produse intr-o coada limitata de 2
+        self.assertEqual(ret, False)
 
     def test_new_cart(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        """
+        Test the assign of an id for a cart
+        """
+        # Ar trebui sa am id-uri consecutive
+        i = 0
+        while i < len(self.consumers[0].carts):
+            self.assertEqual(self.marketplace.new_cart(), i)
+            i += 1
 
     def test_add_to_cart(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        """
+        Verify the return value and the resulted dictionaries from add_to_cart function
+        """
+
+        # Public produse
+        self.producers_action()
+
+        # Fac doar add la produse
+        for cart in self.consumers[0].carts:
+            cart_id = self.marketplace.new_cart()
+
+            for product in cart:
+                for _ in range(product["quantity"]):
+                    if product["type"] == "add":
+                        # Toti consumatorii ar trebui sa poata obtine produsele
+                        self.assertEqual(self.marketplace.add_to_cart(cart_id,
+                                        product["product"]), True)
+
+            # Outputul pe care ar trebui sa-l am
+            dict_prod = {0: [(Tea(name='Linden', price=9, type='Herbal'), False),
+                             (Tea(name='Linden', price=9, type='Herbal'), True),
+                             (Coffee(name='Indonezia', price=1, acidity='5.05',
+                                     roast_level='MEDIUM'), False)]}
+
+            carts = {0: [(Tea(name='Linden', price=9, type='Herbal'), 0),
+                         (Coffee(name='Indonezia', price=1, acidity='5.05',
+                                 roast_level='MEDIUM'), 0)]}
+
+            # Verific continutul dictionarelor
+            self.assertEqual(dict_prod, self.marketplace.dict_prod)
+            self.assertEqual(carts, self.marketplace.carts)
 
     def test_remove_from_cart(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        """
+        Verify the resulted dictionaries from remove_to_cart function
+        """
+
+        # Public produse
+        self.producers_action()
+
+        # Fac operatiile de add si remove
+        self.consumers_action()
+
+        # Outputul pe care ar trebui sa-l am
+        dict_prod = {0: [(Tea(name='Linden', price=9, type='Herbal'), False),
+                         (Tea(name='Linden', price=9, type='Herbal'), True),
+                         (Coffee(name='Indonezia', price=1, acidity='5.05',
+                                 roast_level='MEDIUM'), True)]}
+
+        carts = {0: [(Tea(name='Linden', price=9, type='Herbal'), 0)]}
+
+        # Verific continutul dictionarelor
+        self.assertEqual(dict_prod, self.marketplace.dict_prod)
+        self.assertEqual(carts, self.marketplace.carts)
 
     def test_place_order(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+        """
+        Verify the return list of products from place_order function
+        """
+
+        # Simulez publish, add si remove
+        self.producers_action()
+        self.consumers_action()
+        # Outputul dorit
+        products = [(Tea(name='Linden', price=9, type='Herbal'), 0)]
+        # Verific outputul intors
+        self.assertEqual(self.marketplace.place_order(0), products)
 
 
 class Marketplace:
