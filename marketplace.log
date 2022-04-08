@@ -1,138 +1,1222 @@
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 14
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 9
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 25
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Pai Mu Tan', price=9, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 15
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 13
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Jasmine', price=6, type='Green')
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 39
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 29
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 3
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 46
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 28
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Pai Mu Tan', price=9, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 21
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='White Peach', price=5, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 1
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='English Breakfast', price=2, type='Black')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 2
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 2
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Pai Mu Tan', price=9, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 45
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 27
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 36
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 42
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='English Breakfast', price=2, type='Black')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 41
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='English Breakfast', price=2, type='Black')
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 49
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 38
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 10
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 14
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 8
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 20
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='English Breakfast', price=2, type='Black')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 43
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 16
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 44
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 4
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='English Breakfast', price=2, type='Black')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 32
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='White Peach', price=5, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 31
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='White Peach', price=5, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 18
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 40
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 23
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 37
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Pai Mu Tan', price=9, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 22
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='White Peach', price=5, type='White')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 36
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 27
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:293] return value: False
-[2022-04-07T23:28:49] INFO [root.add_to_cart:323] cart_id: 575
-[2022-04-07T23:28:49] INFO [root.add_to_cart:324] product: Tea(name='Jasmine', price=6, type='Green')
-[2022-04-07T23:28:49] INFO [root.add_to_cart:352] return value: True
-[2022-04-07T23:28:49] INFO [root.add_to_cart:323] cart_id: 575
-[2022-04-07T23:28:49] INFO [root.add_to_cart:324] product: Tea(name='Jasmine', price=6, type='Green')
-[2022-04-07T23:28:49] INFO [root.add_to_cart:352] return value: True
-[2022-04-07T23:28:49] INFO [root.place_order:401] cart_id: 575
-[2022-04-07T23:28:49] INFO [root.place_order:416] return value: [(Tea(name='Jasmine', price=6, type='Green'), 20), (Tea(name='Jasmine', price=6, type='Green'), 20), (Tea(name='Jasmine', price=6, type='Green'), 8)]
-[2022-04-07T23:28:49] INFO [root.new_cart:307] id_cart: 577
-[2022-04-07T23:28:49] INFO [root.add_to_cart:323] cart_id: 577
-[2022-04-07T23:28:49] INFO [root.add_to_cart:324] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.add_to_cart:352] return value: True
-[2022-04-07T23:28:49] INFO [root.add_to_cart:323] cart_id: 577
-[2022-04-07T23:28:49] INFO [root.add_to_cart:324] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 26
-[2022-04-07T23:28:49] INFO [root.add_to_cart:352] return value: True
-[2022-04-07T23:28:49] INFO [root.publish:268] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
-[2022-04-07T23:28:49] INFO [root.add_to_cart:323] cart_id: 577
-[2022-04-07T23:28:49] INFO [root.publish:296] return value: True
-[2022-04-07T23:28:49] INFO [root.add_to_cart:324] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
-[2022-04-07T23:28:49] INFO [root.add_to_cart:352] return value: True
-[2022-04-07T23:28:49] INFO [root.place_order:401] cart_id: 577
-[2022-04-07T23:28:49] INFO [root.place_order:416] return value: [(Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 21), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 21), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 21)]
-[2022-04-07T23:28:49] INFO [root.publish:267] producer_id: 14
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [place_order:413] return value: [(Tea(name='Jasmine', price=6, type='Green'), 31), (Tea(name='Jasmine', price=6, type='Green'), 26), (Tea(name='Jasmine', price=6, type='Green'), 35), (Tea(name='Jasmine', price=6, type='Green'), 25), (Tea(name='Jasmine', price=6, type='Green'), 20), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 42), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 42), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 42), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 42), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 42)]
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 23
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 30
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 0
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 22
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 13
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 24
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 29
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 41
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 15
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 10
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 564
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 6
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 33
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 42
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 35
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 28
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 46
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 16
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 21
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 32
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 27
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 36
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 45
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 8
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 48
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 3
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 20
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 40
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 24
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 23
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 30
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 39
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 19
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 12
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 41
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 25
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 31
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 4
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 567
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 14
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 18
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 15
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 38
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 2
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 13
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 26
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 6
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 22
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 14
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 36
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 34
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 31
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 48
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 564
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 0
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 564
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 23
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 30
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 10
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 16
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 33
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 29
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 34
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 21
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 19
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 28
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 42
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 41
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 14
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 46
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 27
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 35
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 18
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 39
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 40
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 3
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 45
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 14
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 20
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 31
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 32
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 8
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 24
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 4
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 25
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 36
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 48
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 12
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 6
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 23
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 30
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 26
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 41
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 38
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 2
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 567
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 27
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 29
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 19
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 0
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 22
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 15
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 13
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 16
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 29
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 21
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 39
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 564
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 564
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 564
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 564
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:13] INFO [remove_from_cart:364] cart_id: 564
+[2022-04-08T06:48:13] INFO [remove_from_cart:365] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 40
+[2022-04-08T06:48:13] INFO [remove_from_cart:364] cart_id: 564
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [remove_from_cart:365] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [place_order:398] cart_id: 564
+[2022-04-08T06:48:13] INFO [place_order:413] return value: [(Tea(name='Jasmine', price=6, type='Green'), 4), (Tea(name='Jasmine', price=6, type='Green'), 25), (Tea(name='Jasmine', price=6, type='Green'), 15), (Tea(name='Jasmine', price=6, type='Green'), 15), (Tea(name='Jasmine', price=6, type='Green'), 29)]
+[2022-04-08T06:48:13] INFO [new_cart:304] id_cart: 572
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 572
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:13] INFO [place_order:398] cart_id: 572
+[2022-04-08T06:48:13] INFO [place_order:413] return value: [(Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), 3)]
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 28
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 46
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 3
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 18
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 33
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 3
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 10
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 42
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 45
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 48
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 30
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 35
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 34
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 23
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:13] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 27
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 31
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 20
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 36
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 41
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 19
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 6
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 25
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:290] return value: False
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 14
+[2022-04-08T06:48:13] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:13] INFO [publish:293] return value: True
+[2022-04-08T06:48:13] INFO [publish:264] producer_id: 32
+[2022-04-08T06:48:13] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 29
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 0
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 4
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 4
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 8
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 18
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 24
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 26
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 12
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 16
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 38
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 39
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 2
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 22
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 21
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 40
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 30
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 567
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 48
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [add_to_cart:351] return value: False
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 26
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 27
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 23
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 15
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 3
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 13
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 28
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 46
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 41
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 19
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 18
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 26
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 45
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 33
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 29
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 10
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 42
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 35
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 6
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 20
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 31
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 15
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 399
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 399
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Tea(name='Jasmine', price=6, type='Green'), 26), (Tea(name='Jasmine', price=6, type='Green'), 40), (Tea(name='Jasmine', price=6, type='Green'), 13), (Tea(name='Jasmine', price=6, type='Green'), 35), (Tea(name='Jasmine', price=6, type='Green'), 13), (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 26), (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 26), (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 26), (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 26), (Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM'), 26)]
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 167
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [remove_from_cart:364] cart_id: 167
+[2022-04-08T06:48:14] INFO [remove_from_cart:365] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 167
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Tea(name='Pai Mu Tan', price=9, type='White'), 3), (Tea(name='Pai Mu Tan', price=9, type='White'), 4), (Tea(name='Jasmine', price=6, type='Green'), 49), (Tea(name='Jasmine', price=6, type='Green'), 15), (Tea(name='Jasmine', price=6, type='Green'), 35), (Tea(name='Jasmine', price=6, type='Green'), 26), (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 11), (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 11), (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 11), (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 11), (Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM'), 11)]
+[2022-04-08T06:48:14] INFO [new_cart:304] id_cart: 573
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 573
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 573
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 573
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), 39), (Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), 39)]
+[2022-04-08T06:48:14] INFO [new_cart:304] id_cart: 574
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 574
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 574
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 34
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 574
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [remove_from_cart:364] cart_id: 574
+[2022-04-08T06:48:14] INFO [remove_from_cart:365] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 574
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Tea(name='Pai Mu Tan', price=9, type='White'), 33), (Tea(name='Pai Mu Tan', price=9, type='White'), 33)]
+[2022-04-08T06:48:14] INFO [new_cart:304] id_cart: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 30
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 575
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 575
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), 24), (Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), 24), (Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), 24), (Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM'), 1), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 3), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 3), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 3), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 3), (Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), 38)]
+[2022-04-08T06:48:14] INFO [new_cart:304] id_cart: 576
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 576
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 576
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 576
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 576
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [remove_from_cart:364] cart_id: 576
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [remove_from_cart:365] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 13
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 49
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 25
+[2022-04-08T06:48:14] INFO [remove_from_cart:364] cart_id: 576
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:14] INFO [remove_from_cart:365] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [remove_from_cart:364] cart_id: 576
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [remove_from_cart:365] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 48
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 576
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM'), 44)]
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 41
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 37
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 39
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 39
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 18
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 16
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 14
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 27
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 36
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 4
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 4
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 23
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 40
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 40
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 43
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 32
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 21
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 8
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 24
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 24
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 42
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 19
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 0
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Vietnam Oolong', price=10, type='Oolong')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 45
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 7
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 22
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='English Breakfast', price=2, type='Black')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 38
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 38
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 1
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 2
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='Pai Mu Tan', price=9, type='White')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 44
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 12
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 9
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 5
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Indonezia', price=1, acidity=5.05, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 3
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 3
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 11
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 17
+[2022-04-08T06:48:14] INFO [publish:265] product: Tea(name='White Peach', price=5, type='White')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 35
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 47
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Arabica', price=9, acidity=5.02, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 28
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Ethiopia', price=10, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:290] return value: False
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 13
+[2022-04-08T06:48:14] INFO [publish:265] product: Coffee(name='Brasil', price=7, acidity=5.09, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [publish:293] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 567
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Tea(name='Jasmine', price=6, type='Green')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 567
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Tea(name='Jasmine', price=6, type='Green'), 40), (Tea(name='Jasmine', price=6, type='Green'), 20), (Tea(name='Jasmine', price=6, type='Green'), 40)]
+[2022-04-08T06:48:14] INFO [new_cart:304] id_cart: 577
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 577
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 577
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [add_to_cart:320] cart_id: 577
+[2022-04-08T06:48:14] INFO [add_to_cart:321] product: Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM')
+[2022-04-08T06:48:14] INFO [add_to_cart:349] return value: True
+[2022-04-08T06:48:14] INFO [place_order:398] cart_id: 577
+[2022-04-08T06:48:14] INFO [place_order:413] return value: [(Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 2), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 2), (Coffee(name='Robusta', price=3, acidity=5.0, roast_level='MEDIUM'), 2)]
+[2022-04-08T06:48:14] INFO [publish:264] producer_id: 37

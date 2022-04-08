@@ -11,9 +11,9 @@ from logging.handlers import RotatingFileHandler
 from threading import BoundedSemaphore
 import unittest
 
-from tema.consumer import Consumer
-from tema.producer import Producer
-from tema.product import Tea, Coffee
+from consumer import Consumer
+from producer import Producer
+from product import Tea, Coffee
 
 
 class TestMarketplace(unittest.TestCase):
@@ -222,7 +222,7 @@ class Marketplace:
         logging.basicConfig(
             handlers=[RotatingFileHandler('marketplace.log', maxBytes=100000, backupCount=10)],
             level=logging.INFO,
-            format="[%(asctime)s] %(levelname)s [%(name)s.%(funcName)s:%(lineno)d] %(message)s",
+            format="[%(asctime)s] %(levelname)s [%(funcName)s:%(lineno)d] %(message)s",
             datefmt='%Y-%m-%dT%H:%M:%S')
         logging.Formatter.converter = time.gmtime
 
